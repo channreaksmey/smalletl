@@ -1,0 +1,6 @@
+sale_id,date,customer_name,product,amount,quantity,region,sales_rep,processed_at,source_file
+S001,2024-01-15,Acme Corp,Widget A,1500.0,10,North,John Doe,2026-03-06 14:34:15.306497,daily_sales
+S002,2024-01-15,Techstart Inc,Widget B,2300.5,5,South,Jane Smith,2026-03-06 14:34:15.306497,daily_sales
+S003,2024-01-15,Global Systems,Widget A,899.99,3,East,Bob Johnson,2026-03-06 14:34:15.306497,daily_sales
+S004,2024-01-15,Acme Corp,Widget C,4500.0,15,North,John Doe,2026-03-06 14:34:15.306497,daily_sales
+S005,2024-01-15,Startupxyz,Widget B,1250.0,2,West,Alice Brown,2026-03-06 14:34:15.306497,daily_sales

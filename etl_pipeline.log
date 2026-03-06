@@ -1,0 +1,73 @@
+2026-03-06 14:10:44,101 - INFO - ==================================================
+2026-03-06 14:10:44,101 - INFO - STARTING ETL PIPELINE
+2026-03-06 14:10:44,101 - INFO - ==================================================
+2026-03-06 14:10:44,101 - INFO - Extracting data from input_sales/sales_2024_01_15.csv
+2026-03-06 14:10:44,103 - INFO - Extracted 5 rows
+2026-03-06 14:10:44,103 - INFO - Starting data transformation
+2026-03-06 14:10:44,104 - INFO - Removed 0 duplicate rows
+2026-03-06 14:10:44,107 - INFO - Transformation complete. 5 rows ready for loading
+2026-03-06 14:10:44,107 - INFO - Running data validation checks
+2026-03-06 14:10:44,107 - INFO - All validation checks passed
+2026-03-06 14:10:44,108 - INFO - Loading data into table: daily_sales
+2026-03-06 14:10:44,147 - ERROR - Loading failed: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2026-03-06 14:10:44,147 - ERROR - ETL PIPELINE FAILED: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2026-03-06 14:15:38,878 - INFO - ==================================================
+2026-03-06 14:15:38,878 - INFO - STARTING ETL PIPELINE
+2026-03-06 14:15:38,878 - INFO - ==================================================
+2026-03-06 14:15:38,878 - INFO - Extracting data from input_sales/sales_2024_01_15.csv
+2026-03-06 14:15:38,881 - INFO - Extracted 5 rows
+2026-03-06 14:15:38,881 - INFO - Starting data transformation
+2026-03-06 14:15:38,884 - INFO - Removed 0 duplicate rows
+2026-03-06 14:15:38,889 - INFO - Transformation complete. 5 rows ready for loading
+2026-03-06 14:15:38,889 - INFO - Running data validation checks
+2026-03-06 14:15:38,890 - INFO - All validation checks passed
+2026-03-06 14:15:38,891 - INFO - Loading data into table: daily_sales
+2026-03-06 14:15:38,915 - ERROR - Loading failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 14:15:38,915 - ERROR - ETL PIPELINE FAILED: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 14:16:44,557 - INFO - ==================================================
+2026-03-06 14:16:44,557 - INFO - STARTING ETL PIPELINE
+2026-03-06 14:16:44,557 - INFO - ==================================================
+2026-03-06 14:16:44,557 - INFO - Extracting data from input_sales/sales_2024_01_15.csv
+2026-03-06 14:16:44,559 - INFO - Extracted 5 rows
+2026-03-06 14:16:44,559 - INFO - Starting data transformation
+2026-03-06 14:16:44,562 - INFO - Removed 0 duplicate rows
+2026-03-06 14:16:44,566 - INFO - Transformation complete. 5 rows ready for loading
+2026-03-06 14:16:44,566 - INFO - Running data validation checks
+2026-03-06 14:16:44,567 - INFO - All validation checks passed
+2026-03-06 14:16:44,567 - INFO - Loading data into table: daily_sales
+2026-03-06 14:16:54,641 - ERROR - Loading failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '2603@localhost' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 14:16:54,641 - ERROR - ETL PIPELINE FAILED: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '2603@localhost' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 14:27:04,800 - INFO - ==================================================
+2026-03-06 14:27:04,801 - INFO - STARTING ETL PIPELINE
+2026-03-06 14:27:04,801 - INFO - ==================================================
+2026-03-06 14:27:04,801 - INFO - Extracting data from input_sales/sales_2024_01_15.csv
+2026-03-06 14:27:04,803 - INFO - Extracted 5 rows
+2026-03-06 14:27:04,803 - INFO - Starting data transformation
+2026-03-06 14:27:04,806 - INFO - Removed 0 duplicate rows
+2026-03-06 14:27:04,810 - INFO - Transformation complete. 5 rows ready for loading
+2026-03-06 14:27:04,810 - INFO - Running data validation checks
+2026-03-06 14:27:04,812 - INFO - All validation checks passed
+2026-03-06 14:27:04,812 - INFO - Loading data into table: daily_sales
+2026-03-06 14:27:14,878 - ERROR - Loading failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '2603@localhost' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 14:27:14,879 - ERROR - ETL PIPELINE FAILED: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '2603@localhost' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-06 14:34:15,296 - INFO - ==================================================
+2026-03-06 14:34:15,297 - INFO - STARTING ETL PIPELINE
+2026-03-06 14:34:15,297 - INFO - ==================================================
+2026-03-06 14:34:15,297 - INFO - Extracting data from input_sales/sales_2024_01_15.csv
+2026-03-06 14:34:15,300 - INFO - Extracted 5 rows
+2026-03-06 14:34:15,300 - INFO - Starting data transformation
+2026-03-06 14:34:15,303 - INFO - Removed 0 duplicate rows
+2026-03-06 14:34:15,308 - INFO - Transformation complete. 5 rows ready for loading
+2026-03-06 14:34:15,308 - INFO - Running data validation checks
+2026-03-06 14:34:15,310 - INFO - All validation checks passed
+2026-03-06 14:34:15,310 - INFO - Loading data into table: daily_sales
+2026-03-06 14:34:15,340 - INFO - Successfully loaded 5 rows into daily_sales
+2026-03-06 14:34:15,342 - INFO - Archived processed data to processed/sales_20260306_143415.csv
+2026-03-06 14:34:15,342 - INFO - ETL PIPELINE COMPLETED SUCCESSFULLY
+2026-03-06 14:34:15,342 - INFO - Moved sales_2024_01_15.csv to archive

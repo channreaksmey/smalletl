@@ -1,0 +1,6 @@
+sale_id,date,customer_name,product,amount,quantity,region,sales_rep
+S001,2024-01-15,Acme Corp,Widget A,1500.00,10,North,John Doe
+S002,2024-01-15,TechStart Inc,Widget B,2300.50,5,South,Jane Smith
+S003,2024-01-15,Global Systems,Widget A,899.99,3,East,Bob Johnson
+S004,2024-01-15,Acme Corp,Widget C,4500.00,15,North,John Doe
+S005,2024-01-15,StartupXYZ,Widget B,1250.00,2,West,Alice Brown
