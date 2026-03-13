@@ -1,1 +1,49 @@
+# Virtual Environment
 .smey/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test, lint, type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local env and secrets
+.env
+.env.*
+*.env
+
+# ETL runtime artifacts
+logs/
+input_sales/*.csv
+processed/*.csv
+archive/*.csv
+
+# Keep folders if you add .gitkeep files
+!logs/.gitkeep
+!input_sales/.gitkeep
+!processed/.gitkeep
+!archive/.gitkeep
+
+# Local DB/scratch files
+*.db
+*.sqlite3
+Untitled.sql
